@@ -55,7 +55,7 @@ public class CalculatorTest {
 		
 		Calculator cal = new Calculator(); 
 		int actual = cal.multiple(a, b);
-		
+		 
 		int expected = 39483; 
 		assertEquals (expected, actual);
 	}
